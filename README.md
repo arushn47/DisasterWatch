@@ -38,7 +38,7 @@ DisasterWatch aggregates fragmented global natural hazard data into a unified, h
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/DisasterWatch.git
+git clone https://github.com/arushn47/DisasterWatch.git
 cd DisasterWatch
 ```
 

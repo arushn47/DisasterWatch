@@ -1,0 +1,411 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-surface": "#dfe2ee", "surface-container": "#1c2028", "primary-fixed": "#acedff", "tertiary-container": "#e79400", "background": "#0f131c", "surface-tint": "#4cd7f6", "on-tertiary": "#472a00", "secondary-fixed": "#ffdad7", "on-secondary": "#68000a", "surface-bright": "#353942", "surface-variant": "#31353e", "on-error-container": "#ffdad6", "inverse-on-surface": "#2c3039", "on-error": "#690005", "tertiary": "#ffb95f", "on-surface-variant": "#bcc9cd", "primary-container": "#06b6d4", "surface-dim": "#0f131c", "secondary": "#ffb3ad", "primary": "#4cd7f6", "tertiary-fixed": "#ffddb8", "on-primary-fixed": "#001f26", "outline": "#869397", "on-primary-container": "#00424f", "secondary-fixed-dim": "#ffb3ad", "secondary-container": "#a40217", "error": "#ffb4ab", "on-tertiary-fixed": "#2a1700", "surface-container-low": "#181c24", "surface": "#0f131c", "primary-fixed-dim": "#4cd7f6", "error-container": "#93000a", "surface-container-high": "#262a33", "on-tertiary-fixed-variant": "#653e00", "on-background": "#dfe2ee", "on-surface": "#dfe2ee", "surface-container-lowest": "#0a0e16", "on-secondary-container": "#ffaea8", "tertiary-fixed-dim": "#ffb95f", "inverse-primary": "#00687a", "on-secondary-fixed-variant": "#930013", "on-tertiary-container": "#563400", "on-primary-fixed-variant": "#004e5c", "surface-container-highest": "#31353e", "on-secondary-fixed": "#410004", "outline-variant": "#3d494c", "on-primary": "#003640" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "grid-margin-mobile": "0.75rem", "gutter-lg": "1rem", "panel-padding-standard": "1rem", "gutter-md": "0.75rem", "panel-padding-spacious": "1.5rem", "grid-margin-desktop": "1.5rem", "panel-padding-tight": "0.5rem", "module-gap": "1.25rem", "gutter-xs": "0.25rem", "gutter-sm": "0.5rem" }, "fontFamily": { "body-md": [ "Inter" ], "headline-lg": [ "Plus Jakarta Sans" ], "headline-xl": [ "Plus Jakarta Sans" ], "label-mono-lg": [ "JetBrains Mono" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ], "body-lg": [ "Inter" ], "headline-md": [ "Plus Jakarta Sans" ], "label-mono-md": [ "JetBrains Mono" ], "headline-sm": [ "Plus Jakarta Sans" ], "label-mono-sm": [ "JetBrains Mono" ] }, "fontSize": { "body-md": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "label-mono-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "800" } ], "headline-lg-mobile": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "body-sm": [ "12px", { "lineHeight": "16px", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-md": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "label-mono-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" } ], "headline-sm": [ "18px", { "lineHeight": "24px", "fontWeight": "600" } ], "label-mono-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "500" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md"><div class="h-16 w-full px-grid-margin-desktop flex items-center justify-between gap-gutter-md"><div class="flex items-center gap-gutter-md"><img alt="Aegis Global Watch Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X0u44tkqFllaPey7oO6Zr765c20aKiM_2NioKieEZbAoqBUUBomkxGGXPYg16ise2ZmIVDH1OCKvr_FQSKvol27AGhtL67r5Nuc-GjO1ZTIN-BaymnOWANoyYNMs33T8gKY-cNI3QOpHqVOc4-lkSS5lcC7xwNFEa4e7-CMnims8IPL56LTm19iEjdcUUHgnQBBmeHz5V7SA9FWuLaTbZh9VkP-MrwfUFfZswiaRud2iyeHgpzG1CUGMfA"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase text-on-surface tracking-wider">AEGIS WATCH</span><span class="font-label-mono-sm text-label-mono-sm text-primary uppercase">GLOBAL SENSOR NET</span></div></div><div class="flex items-center gap-gutter-lg"><div class="hidden md:flex items-center gap-gutter-sm px-gutter-md py-gutter-xs bg-surface-container-low rounded-full"><span class="h-2 w-2 rounded-full bg-primary animate-pulse"></span><span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant font-medium">SYSTEM OPERATIONAL</span><span class="h-3 w-px bg-surface-variant"></span><span class="font-label-mono-sm text-label-mono-sm text-primary font-semibold">LIVE TELEMETRY ACTIVE</span></div><div class="flex items-center gap-gutter-xs"><button class="flex items-center justify-center w-9 h-9 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span></button><button class="flex items-center justify-center w-9 h-9 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">settings</span></button><div class="flex items-center pl-gutter-xs"><div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-label-mono-md text-label-mono-md">AW</div></div></div></div></div></header><aside class="fixed left-0 top-16 bottom-0 w-64 bg-surface-container-lowest z-40 flex flex-col justify-between py-panel-padding-standard overflow-y-auto"><div class="flex flex-col gap-module-gap px-panel-padding-tight"><div class="flex flex-col gap-gutter-xs"><div class="px-gutter-sm py-gutter-xs"><span class="font-label-mono-sm text-label-mono-sm text-outline uppercase tracking-widest">OVERVIEW</span></div><nav class="flex flex-col gap-gutter-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg"><a class="px-gutter-md py-gutter-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-body-md text-body-md" data-path="live-map-radar" href="#">Live Map &amp; Radar</a><a class="px-gutter-md py-gutter-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-body-md text-body-md" data-path="local-risk-profiles" href="#">Local Risk Profiles</a></nav></div><div class="flex flex-col gap-gutter-xs"><div class="px-gutter-sm py-gutter-xs"><span class="font-label-mono-sm text-label-mono-sm text-outline uppercase tracking-widest">DISASTER DOMAINS</span></div><nav class="flex flex-col gap-gutter-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg"><a class="px-gutter-md py-gutter-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-body-md text-body-md" data-path="earthquakes" href="#">Earthquakes</a><a class="px-gutter-md py-gutter-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-body-md text-body-md" data-path="wildfires" href="#">Wildfires</a><a aria-current="page" class="px-gutter-md py-gutter-sm transition-colors bg-primary-container text-on-primary-container font-semibold rounded-lg" data-path="cyclones-hurricanes" href="#">Cyclones &amp; Hurricanes</a><a class="px-gutter-md py-gutter-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-body-md text-body-md" data-path="floods" href="#">Floods</a><a class="px-gutter-md py-gutter-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-body-md text-body-md" data-path="tsunamis" href="#">Tsunamis</a></nav></div></div><div class="px-panel-padding-standard"><div class="bg-surface-container-low p-gutter-md rounded-lg flex flex-col gap-gutter-xs"><div class="flex items-center justify-between"><span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">MONITOR STATUS</span><span class="h-2 w-2 rounded-full bg-primary"></span></div><span class="font-body-sm text-body-sm text-on-surface-variant">All active sensor networks responding within target latency.</span></div></div></aside><div class="pl-64"><main class="relative w-full pt-16 bg-surface min-h-screen px-grid-margin-desktop py-panel-padding-spacious"><div class="flex flex-col w-full gap-module-gap">
+<!-- Top Bar: Quick Domain Switcher Pills + Real-Time Telemetry Sync -->
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-gutter-md">
+<!-- Domain Switcher Pills -->
+<div class="flex flex-wrap items-center gap-gutter-xs">
+<a class="px-gutter-md py-gutter-xs bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-on-surface-variant font-label-mono-md text-label-mono-md uppercase rounded transition-colors" href="#">
+        Earthquakes
+      </a>
+<a class="px-gutter-md py-gutter-xs bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-on-surface-variant font-label-mono-md text-label-mono-md uppercase rounded transition-colors" href="#">
+        Wildfire
+      </a>
+<a class="px-gutter-md py-gutter-xs bg-primary-container text-on-primary-container font-label-mono-md text-label-mono-md font-semibold uppercase rounded shadow-sm flex items-center gap-gutter-xs" href="#">
+<span class="w-2 h-2 rounded-full bg-on-primary-container animate-pulse"></span>
+        Cyclone &amp; Hurricane
+      </a>
+<a class="px-gutter-md py-gutter-xs bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-on-surface-variant font-label-mono-md text-label-mono-md uppercase rounded transition-colors" href="#">
+        Flood
+      </a>
+<a class="px-gutter-md py-gutter-xs bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-on-surface-variant font-label-mono-md text-label-mono-md uppercase rounded transition-colors" href="#">
+        Tsunami
+      </a>
+</div>
+<!-- Live Telemetry Status Readout -->
+<div class="flex items-center gap-gutter-sm px-gutter-md py-gutter-xs bg-surface-container-lowest rounded">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase tracking-wider">RADAR REFRESH:</span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary font-semibold">T-04s</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant uppercase">NOAA-20 / HIMAWARI-9 ORBITAL FEED</span>
+</div>
+</div>
+<!-- 3 Top Key Metric Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-md">
+<!-- Metric Card 1 -->
+<div class="relative overflow-hidden bg-surface-container p-panel-padding-spacious rounded shadow-md flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-gutter-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase tracking-widest">ACTIVE CYCLONES</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Classified ≥ Cat 2 In Ocean Basins</span>
+</div>
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">cyclone</span>
+</div>
+</div>
+<div class="mt-gutter-lg flex items-baseline gap-gutter-sm">
+<span class="font-headline-xl text-headline-xl text-on-surface font-extrabold tracking-tight">04</span>
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary uppercase">2 PACIFIC / 1 INDIAN / 1 ATLANTIC</span>
+</div>
+<div class="mt-gutter-sm h-1 w-full bg-surface-container-low rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 68%;"></div>
+</div>
+</div>
+<!-- Metric Card 2 -->
+<div class="relative overflow-hidden bg-surface-container p-panel-padding-spacious rounded shadow-md flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-gutter-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary-fixed-dim uppercase tracking-widest font-semibold">MAX SUSTAINED WINDS</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Super Typhoon 'Mawar II' • Pacific</span>
+</div>
+<div class="w-10 h-10 rounded bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[24px]">air</span>
+</div>
+</div>
+<div class="mt-gutter-lg flex items-baseline gap-gutter-sm">
+<span class="font-headline-xl text-headline-xl text-secondary font-extrabold tracking-tight">245</span>
+<span class="font-label-mono-md text-label-mono-md text-secondary uppercase font-semibold">km/h</span>
+<span class="px-gutter-xs py-0.5 bg-secondary-container text-on-secondary-container font-label-mono-sm text-label-mono-sm rounded uppercase font-bold ml-auto">CAT 5</span>
+</div>
+<div class="mt-gutter-sm h-1 w-full bg-surface-container-low rounded-full overflow-hidden">
+<div class="h-full bg-secondary-container" style="width: 96%;"></div>
+</div>
+</div>
+<!-- Metric Card 3 -->
+<div class="relative overflow-hidden bg-surface-container p-panel-padding-spacious rounded shadow-md flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-gutter-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase tracking-widest">COASTAL EVACUATION POPULATION</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Mandatory Corridors Activated</span>
+</div>
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">groups</span>
+</div>
+</div>
+<div class="mt-gutter-lg flex items-baseline gap-gutter-sm">
+<span class="font-headline-xl text-headline-xl text-on-surface font-extrabold tracking-tight">310,500</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">CIVILIANS</span>
+</div>
+<div class="mt-gutter-sm h-1 w-full bg-surface-container-low rounded-full overflow-hidden">
+<div class="h-full bg-tertiary-container" style="width: 82%;"></div>
+</div>
+</div>
+</div>
+<!-- Split Section: Active Storm Systems & Live Radar -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-gutter-md items-stretch">
+<!-- Left Column: Active Storm Systems Priority List (5 cols) -->
+<div class="xl:col-span-5 flex flex-col gap-gutter-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-gutter-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<h2 class="font-headline-sm text-headline-sm uppercase text-on-surface tracking-wide">ACTIVE STORM SYSTEMS</h2>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">BASIN PRIORITY QUEUE</span>
+</div>
+<!-- Card 1: Critical Super Typhoon -->
+<div class="relative overflow-hidden bg-surface-container p-panel-padding-standard rounded shadow-sm flex flex-col gap-gutter-sm">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-secondary-container"></div>
+<div class="pl-gutter-xs flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-gutter-xs">
+<span class="px-gutter-xs py-0.5 bg-secondary-container text-on-secondary-container font-label-mono-sm text-label-mono-sm rounded uppercase font-bold">SEVERE • CAT 5</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">ID: PAC-24M</span>
+</div>
+<h3 class="mt-gutter-xs font-headline-sm text-headline-sm text-on-surface font-bold">Super Typhoon 'Mawar II'</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Philippine Sea → Approaching Luzon Coastline</span>
+</div>
+<button class="px-gutter-md py-gutter-xs bg-primary-container hover:bg-primary text-on-primary-container font-label-mono-sm text-label-mono-sm font-bold uppercase rounded flex items-center gap-gutter-xs transition-colors" type="button">
+            TRACK
+            <span class="material-symbols-outlined text-[16px]">trending_up</span>
+</button>
+</div>
+<div class="pl-gutter-xs grid grid-cols-3 gap-gutter-xs bg-surface-container-lowest p-gutter-xs rounded">
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">PEAK WINDS</span>
+<span class="font-label-mono-md text-label-mono-md text-secondary font-bold">245 km/h</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">CENTRAL PRES.</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface font-bold">915 hPa</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">EST. LANDFALL</span>
+<span class="font-label-mono-md text-label-mono-md text-tertiary font-bold">In 14h 20m</span>
+</div>
+</div>
+</div>
+<!-- Card 2: High Warning Severe Cyclone -->
+<div class="relative overflow-hidden bg-surface-container p-panel-padding-standard rounded shadow-sm flex flex-col gap-gutter-sm">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-tertiary-container"></div>
+<div class="pl-gutter-xs flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-gutter-xs">
+<span class="px-gutter-xs py-0.5 bg-surface-container-high text-tertiary font-label-mono-sm text-label-mono-sm rounded uppercase font-bold">HIGH • CAT 3</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">ID: IND-09R</span>
+</div>
+<h3 class="mt-gutter-xs font-headline-sm text-headline-sm text-on-surface font-bold">Severe Cyclone 'Remal'</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">North Bay of Bengal → Sundarbans Delta</span>
+</div>
+<button class="px-gutter-md py-gutter-xs bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-mono-sm text-label-mono-sm font-semibold uppercase rounded flex items-center gap-gutter-xs transition-colors" type="button">
+            TRACK
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<div class="pl-gutter-xs grid grid-cols-3 gap-gutter-xs bg-surface-container-lowest p-gutter-xs rounded">
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">PEAK WINDS</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface font-bold">165 km/h</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">CENTRAL PRES.</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface font-bold">960 hPa</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">EST. LANDFALL</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface-variant font-bold">In 28h 45m</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Moderate Alert Tropical Storm -->
+<div class="relative overflow-hidden bg-surface-container p-panel-padding-standard rounded shadow-sm flex flex-col gap-gutter-sm">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<div class="pl-gutter-xs flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-gutter-xs">
+<span class="px-gutter-xs py-0.5 bg-surface-container-high text-primary font-label-mono-sm text-label-mono-sm rounded uppercase font-bold">MODERATE • CAT 1</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">ID: ATL-02B</span>
+</div>
+<h3 class="mt-gutter-xs font-headline-sm text-headline-sm text-on-surface font-bold">Tropical Storm 'Beryl'</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Western Gulf Coast → Corpus Christi Sector</span>
+</div>
+<button class="px-gutter-md py-gutter-xs bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-mono-sm text-label-mono-sm font-semibold uppercase rounded flex items-center gap-gutter-xs transition-colors" type="button">
+            TRACK
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<div class="pl-gutter-xs grid grid-cols-3 gap-gutter-xs bg-surface-container-lowest p-gutter-xs rounded">
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">PEAK WINDS</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface font-bold">120 km/h</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">CENTRAL PRES.</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface font-bold">988 hPa</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">EST. LANDFALL</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface-variant font-bold">In 36h 10m</span>
+</div>
+</div>
+</div>
+<!-- Relay Status Pill -->
+<div class="p-gutter-sm bg-surface-container-lowest rounded flex items-center justify-between">
+<div class="flex items-center gap-gutter-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase tracking-wider">NOAA / JTWC SATELLITE RADAR RELAY • ONLINE</span>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary">LATENCY 42ms</span>
+</div>
+</div>
+<!-- Right Column: Live Radar Canvas & Pressure Barograph (7 cols) -->
+<div class="xl:col-span-7 flex flex-col gap-gutter-md">
+<!-- Radar Map Container -->
+<div class="relative overflow-hidden bg-surface-container-lowest rounded shadow-lg flex flex-col min-h-[380px] p-panel-padding-standard justify-between">
+<!-- Interactive Map Element with Google Maps Static pipeline anchor -->
+<div class="absolute inset-0 bg-cover bg-center opacity-40" data-location="Philippine Sea, Western Pacific Ocean" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBdIxRMdDZFQPl81GmXSQwKNn7eGgd-kOuuhIs2EcCh24VLJmtrPmb_X0fE1i3NkuKUVtsw_s2vnzWVDqcTF7Tra9_UHaqeQ29_J1IfCqRac09jAGe15nfH9gUpcwzyye0CtQ9oat6RScuDWR_8-v0fqNMVg_N1K_BX2kpwP_jBLOuA41T9EXtCoyqok4noyR_HnSB1limyou96L0qQ9VVMyzJEddwPlXSrRw0gsUwml2Kdq_nPB7bO_g');"></div>
+<!-- Tactical Radar Canvas Layer (Inline Vector Overlay) -->
+<div class="absolute inset-0 pointer-events-none flex items-center justify-center">
+<svg class="w-full h-full text-primary/30" fill="none" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<!-- Range Rings -->
+<circle cx="360" cy="210" r="80" stroke="currentColor" stroke-dasharray="4 4" stroke-width="1.2"></circle>
+<circle cx="360" cy="210" r="150" stroke="currentColor" stroke-dasharray="6 6" stroke-width="1.2"></circle>
+<circle cx="360" cy="210" r="230" stroke="currentColor" stroke-width="0.8"></circle>
+<!-- Axis lines -->
+<line stroke="currentColor" stroke-dasharray="2 4" stroke-width="0.7" x1="360" x2="360" y1="0" y2="420"></line>
+<line stroke="currentColor" stroke-dasharray="2 4" stroke-width="0.7" x1="0" x2="700" y1="210" y2="210"></line>
+<!-- Swirling Isobar vortex simulation -->
+<path class="text-primary/70" d="M 360 210 Q 390 140 450 150 T 490 230 T 410 310 T 290 280 T 260 170 T 360 110" fill="none" stroke="currentColor" stroke-width="1.8"></path>
+<path d="M 360 210 Q 330 260 270 240 T 250 160 T 320 90 T 430 110 T 460 220" fill="none" stroke="#ffb4ab" stroke-opacity="0.85" stroke-width="2.2"></path>
+<!-- Cone of Uncertainty Path -->
+<path d="M 360 210 L 180 130 L 140 190 Z" fill="#4cd7f6" fill-opacity="0.12" stroke="#4cd7f6" stroke-dasharray="3 3" stroke-width="1.2"></path>
+<!-- Eye marker -->
+<circle cx="360" cy="210" fill="#a40217" r="8"></circle>
+<circle class="animate-ping" cx="360" cy="210" r="16" stroke="#ffb4ab" stroke-width="1.5"></circle>
+</svg>
+</div>
+<!-- Radar HUD Top Overlays -->
+<div class="relative z-10 flex items-start justify-between">
+<div class="bg-surface-container-lowest/90 backdrop-blur px-gutter-md py-gutter-xs rounded flex flex-col gap-0.5">
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase font-bold tracking-widest">LIVE SATELLITE RADAR • PACIFIC BASIN</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface">14.8290° N, 131.4019° E • ELEV: 0m MSL</span>
+</div>
+<!-- Zoom & Layer Controls -->
+<div class="flex items-center gap-gutter-xs bg-surface-container-lowest/90 backdrop-blur p-gutter-xs rounded">
+<button class="w-8 h-8 rounded bg-surface-container hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">layers</span>
+</button>
+<button class="w-8 h-8 rounded bg-surface-container hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+<button class="w-8 h-8 rounded bg-surface-container hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+</div>
+</div>
+<!-- Radar HUD Bottom Overlay Legend -->
+<div class="relative z-10 flex flex-wrap items-center justify-between gap-gutter-sm bg-surface-container-lowest/90 backdrop-blur px-gutter-md py-gutter-sm rounded">
+<div class="flex items-center gap-gutter-md">
+<div class="flex items-center gap-gutter-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface font-medium">Vortex Eye (Cat 5 Core)</span>
+</div>
+<div class="flex items-center gap-gutter-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface font-medium">Cone of Uncertainty (72h)</span>
+</div>
+</div>
+<div class="flex items-center gap-gutter-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">PROJECTION MODEL:</span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary font-bold">ECMWF / GFS ENSEMBLE</span>
+</div>
+</div>
+</div>
+<!-- Barometric Pressure & Surge Barograph Module -->
+<div class="bg-surface-container p-panel-padding-standard rounded shadow-sm flex flex-col gap-gutter-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">speed</span>
+<span class="font-label-mono-md text-label-mono-md text-on-surface uppercase font-bold">BAROMETRIC PRESSURE &amp; SURGE BAROGRAPH</span>
+</div>
+<div class="flex items-center gap-gutter-sm">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary font-bold">CENTRAL: 915 hPa</span>
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary font-bold">MAX SURGE: 4.8m</span>
+</div>
+</div>
+<!-- High contrast sparkline visualization -->
+<div class="h-20 w-full bg-surface-container-lowest rounded p-gutter-xs flex items-center justify-center">
+<svg class="w-full h-full overflow-visible" fill="none" preserveAspectRatio="none" viewBox="0 0 500 60">
+<!-- Baseline -->
+<line stroke="#31353e" stroke-dasharray="2 2" stroke-width="1" x1="0" x2="500" y1="12" y2="12"></line>
+<!-- Surge Bar Fill (Yellow/Amber) -->
+<path d="M 0 55 L 60 54 L 140 52 L 220 48 L 300 38 L 380 20 L 430 8 L 500 5 L 500 60 L 0 60 Z" fill="#e79400" fill-opacity="0.15"></path>
+<!-- Surge Curve Line -->
+<path d="M 0 55 Q 180 52 300 38 T 430 8 L 500 5" fill="none" stroke="#ffb95f" stroke-width="2"></path>
+<!-- Steep Pressure Drop (Red) -->
+<path d="M 0 10 L 80 12 L 180 15 L 280 22 L 360 38 L 440 54 L 500 58" fill="none" stroke="#ffb4ab" stroke-width="2"></path>
+<!-- Marker on current central reading -->
+<circle cx="500" cy="58" fill="#ffb4ab" r="4"></circle>
+<circle cx="500" cy="5" fill="#ffb95f" r="4"></circle>
+</svg>
+</div>
+<div class="flex items-center justify-between text-outline font-label-mono-sm text-label-mono-sm">
+<span class="">T-24h (1008 hPa)</span>
+<span class="">T-18h (992 hPa)</span>
+<span class="">T-12h (970 hPa)</span>
+<span class="">T-06h (940 hPa)</span>
+<span class="text-secondary font-bold">EYEWALL (915 hPa)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Section: Safety Essentials & Storm Protocol -->
+<div class="flex flex-col gap-gutter-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">health_and_safety</span>
+<h2 class="font-headline-sm text-headline-sm uppercase text-on-surface tracking-wide">SAFETY ESSENTIALS &amp; STORM PROTOCOL</h2>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">CIVIL DEFENSE LEVEL 4 MANDATE</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-md">
+<!-- Protocol Card 1 -->
+<div class="relative bg-surface-container p-panel-padding-standard rounded shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-gutter-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">1. Pre-Landfall Prep</span>
+<span class="w-7 h-7 rounded bg-surface-container-high text-primary flex items-center justify-center font-label-mono-sm text-label-mono-sm font-bold">01</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Execute within T-12h prior to tropical storm force gusts:</span>
+<ul class="flex flex-col gap-gutter-xs text-on-surface font-body-sm text-body-sm">
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">check_box</span>
+<span class="">Secure all commercial &amp; home exterior storm shutters.</span>
+</li>
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">check_box</span>
+<span class="">Fill auxiliary power generators &amp; vehicle fuel cells.</span>
+</li>
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">check_box</span>
+<span class="">Store 5-day potable water (4L/person/day) &amp; MRE packs.</span>
+</li>
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">check_box</span>
+<span class="">Check high-resolution coastal flood surge zone maps.</span>
+</li>
+</ul>
+</div>
+<div class="mt-gutter-md pt-gutter-xs flex items-center justify-between text-outline font-label-mono-sm text-label-mono-sm">
+<span class="">TIMELINE: T-12H</span>
+<span class="text-primary font-bold">MANDATORY</span>
+</div>
+</div>
+<!-- Protocol Card 2 -->
+<div class="relative bg-surface-container p-panel-padding-standard rounded shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-gutter-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">2. Eye &amp; Surge Survival</span>
+<span class="w-7 h-7 rounded bg-surface-container-high text-secondary flex items-center justify-center font-label-mono-sm text-label-mono-sm font-bold">02</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Critical live-hazard avoidance inside hurricane vortex:</span>
+<ul class="flex flex-col gap-gutter-xs text-on-surface font-body-sm text-body-sm">
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-secondary text-[18px]">warning</span>
+<span class="font-semibold text-secondary">NEVER EXIT during the calm of the eye—trailing eyewall reverses violently.</span>
+</li>
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">arrow_upward</span>
+<span class="">Relocate immediately above predicted 4.8m surge level.</span>
+</li>
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">power_off</span>
+<span class="">Disconnect main circuit breakers to prevent electrocution.</span>
+</li>
+<li class="flex items-start gap-gutter-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">flip_camera_ios</span>
+<span class="">Remain inside reinforced interior room without windows.</span>
+</li>
+</ul>
+</div>
+<div class="mt-gutter-md pt-gutter-xs flex items-center justify-between text-outline font-label-mono-sm text-label-mono-sm">
+<span class="">STATUS: IMMINENT IMPACT</span>
+<span class="text-secondary font-bold">CRITICAL</span>
+</div>
+</div>
+<!-- Protocol Card 3 -->
+<div class="relative bg-surface-container p-panel-padding-standard rounded shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-gutter-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">3. Emergency Response</span>
+<span class="w-7 h-7 rounded bg-surface-container-high text-tertiary flex items-center justify-center font-label-mono-sm text-label-mono-sm font-bold">03</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Coast Guard and Civil Defense coordination channel:</span>
+<div class="flex flex-col gap-gutter-xs bg-surface-container-lowest p-gutter-sm rounded">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">DIRECT SATELLITE DISPATCH HOTLINE</span>
+<span class="font-label-mono-lg text-label-mono-lg text-primary font-bold tracking-wide">+1 (800) 555-STORM</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Continuous VHF monitoring on Marine Channel 16.</span>
+</div>
+<button class="w-full mt-gutter-xs py-gutter-sm px-gutter-md bg-secondary-container hover:bg-secondary-fixed text-on-secondary hover:text-on-secondary-fixed font-label-mono-md text-label-mono-md font-bold uppercase rounded shadow-md flex items-center justify-center gap-gutter-xs transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">e911_emergency</span>
+            BROADCAST SOS BEACON
+          </button>
+</div>
+<div class="mt-gutter-md pt-gutter-xs flex items-center justify-between text-outline font-label-mono-sm text-label-mono-sm">
+<span class="">COAST GUARD • ACTIVE</span>
+<span class="text-tertiary font-bold">CH-16 LIVE</span>
+</div>
+</div>
+</div>
+</div>
+</div></main></div>
+
+</body></html>

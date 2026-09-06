@@ -4,6 +4,11 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'DisasterWatch — Real-Time Global Disaster Intelligence & Situational Radar',
   description: 'Mission-critical planetary monitoring, deterministic geospatial risk detection, and AI safety guidance for global natural hazards.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: 'DisasterWatch — Planetary Situational Radar',
     description: 'Real-time multi-hazard telemetry, PostGIS risk detection, and emergency decision support.',
@@ -19,6 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        {/* Browser Tab Icon (Favicon) */}
+        <link rel="icon" type="image/png" href="/logo.png" />
+        <link rel="shortcut icon" href="/logo.png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+
         {/* Google Fonts: Inter, Plus Jakarta Sans, JetBrains Mono, Material Symbols */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

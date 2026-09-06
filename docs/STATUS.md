@@ -1,16 +1,16 @@
-# DisasterWatch — System Status & Active Deliverables
+# AegisWatch — System Status & Active Deliverables
 
-**Project:** DisasterWatch — Real-Time Global Natural Disaster Intelligence, Alert & Emergency Assistance Platform  
+**Project:** AegisWatch — Real-Time Global Natural Disaster Intelligence, Alert & Emergency Assistance Platform  
 **Milestone:** Phase 1 (Initial Exhibition & Prototype Demonstration)  
 **Status:** 🟢 **Active, Verified & Running Live**  
 **Local Access URL:** [http://localhost:3000](http://localhost:3000)  
-**Last Verified:** 2026-09-05 (Pre-Exhibition Milestone)  
+**Last Verified:** 2026-09-06 (Pre-Exhibition Milestone)  
 
 ---
 
 ## 1. Executive Summary
 
-DisasterWatch Phase 1 is fully operational. The platform features an aerospace mission-control situational dashboard built with **Next.js 16 (App Router)**, styled strictly against the teammate's **Stitch Design System** (`Orbital Telemetry & Crisis Operations`), and connected to live real-time global scientific telemetry from the **USGS Earthquake Hazards Program**.
+AegisWatch Phase 1 is fully operational. The platform features an aerospace mission-control situational dashboard built with **Next.js 16 (App Router)**, styled strictly against the teammate's **Stitch Design System** (`Orbital Telemetry & Crisis Operations`), and connected to live real-time global scientific telemetry from **USGS** and **NASA EONET**.
 
 ---
 

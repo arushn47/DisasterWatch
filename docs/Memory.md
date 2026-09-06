@@ -1,11 +1,11 @@
-# DisasterWatch — Active Session Memory & Progress State
+# AegisWatch — Active Session Memory & Progress State
 
-**Project:** DisasterWatch (Capstone Phase-1)  
-**Last Updated:** 2026-09-05 (Phase 1 Frontend Migration & Live Telemetry)  
+**Project:** AegisWatch (Capstone Phase-1)  
+**Last Updated:** 2026-09-06 (Phase 1 Frontend Migration & 100% Live Telemetry)  
 **Active Phase:** Phase 1 — Foundation & Tactical Radar Dashboard (Target: Monday Exhibition)  
 **Frontend Framework:** Next.js 16.x (App Router) + React 19 + TypeScript + Tailwind CSS  
 **Backend Framework:** Java 21 LTS + Spring Boot 3.x (Scheduled for Phase 2)  
-**Current Status:** Next.js App Router is live at `http://localhost:3000` with live USGS real-time seismic telemetry and Stitch design parity.  
+**Current Status:** Next.js App Router is live at `http://localhost:3000` with 100% real-time USGS + NASA EONET telemetry and Stitch design parity.  
 
 ---
 

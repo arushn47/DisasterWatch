@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'DisasterWatch — Real-Time Global Disaster Intelligence & Situational Radar',
+  title: 'AegisWatch — Real-Time Global Disaster Intelligence & Situational Radar',
   description: 'Mission-critical planetary monitoring, deterministic geospatial risk detection, and AI safety guidance for global natural hazards.',
   icons: {
     icon: '/logo.png',
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     apple: '/logo.png',
   },
   openGraph: {
-    title: 'DisasterWatch — Planetary Situational Radar',
+    title: 'AegisWatch — Planetary Situational Radar',
     description: 'Real-time multi-hazard telemetry, PostGIS risk detection, and emergency decision support.',
     type: 'website',
   },

@@ -263,7 +263,7 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
                 Emergency Decision-Support Notice
               </span>
               <span className="text-[11px] text-outline">
-                DisasterWatch is an informational platform. Assessments are non-prescriptive and do not replace sovereign civil defense alerts. Always obey instructions from local emergency authorities.
+                AegisWatch is an informational platform. Assessments are non-prescriptive and do not replace sovereign civil defense alerts. Always obey instructions from local emergency authorities.
               </span>
             </div>
           </div>

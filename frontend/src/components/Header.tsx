@@ -19,16 +19,16 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Logo & Platform Titles */}
         <div className="flex items-center gap-gutter-md">
           <img
-            alt="DisasterWatch Aegis Logo"
+            alt="Aegis Watch Logo"
             className="h-9 w-9 rounded-lg object-cover ring-1 ring-primary/40 shadow-sm shadow-primary/20"
             src="/logo.png"
           />
           <div className="flex flex-col">
             <span className="font-headline-sm text-headline-sm uppercase text-on-surface tracking-wider font-semibold">
-              DISASTERWATCH
+              AEGIS WATCH
             </span>
             <span className="font-label-mono-sm text-label-mono-sm text-primary uppercase font-medium">
-              AEGIS SENSOR NET
+              GLOBAL SENSOR NET
             </span>
           </div>
         </div>

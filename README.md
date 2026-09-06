@@ -1,4 +1,4 @@
-# 🛡️ DisasterWatch
+# 🛡️ AegisWatch
 
 > **Real-Time Global Natural Disaster Intelligence, Alert & Emergency Assistance Platform**  
 > *Final Year Capstone Project (Engineering & Computer Science)*
@@ -7,7 +7,7 @@
 
 ## 🌟 Overview
 
-DisasterWatch aggregates fragmented global natural hazard data into a unified, high-contrast mission-control situational dashboard. It pairs deterministic geospatial calculations (PostGIS) with Google Gemini AI explainability to provide actionable, location-aware safety intelligence.
+AegisWatch aggregates fragmented global natural hazard data into a unified, high-contrast mission-control situational dashboard. It pairs deterministic geospatial calculations (PostGIS) with Google Gemini AI explainability to provide actionable, location-aware safety intelligence.
 
 * **Core Principle:** *"Data and deterministic rules detect risk. AI explains the situation and assists the user."*
 

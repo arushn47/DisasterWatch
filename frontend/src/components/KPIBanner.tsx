@@ -45,7 +45,7 @@ export const KPIBanner: React.FC<KPIBannerProps> = ({ stats, onFilterType }) => 
             {stats.significantQuakes}
           </span>
           <span className="font-body-sm text-xs text-on-surface-variant truncate">
-            &gt;M5.0 Quakes
+            &gt;M4.5 Quakes
           </span>
         </div>
       </button>

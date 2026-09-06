@@ -104,8 +104,18 @@ export const IncidentList: React.FC<IncidentListProps> = ({
                       {incident.timeAgo}
                     </span>
                     {incident.isLiveFeed && (
-                      <span className="text-[9px] px-1 rounded bg-primary/10 text-primary font-mono font-medium">
-                        USGS LIVE
+                      <span className={`text-[9px] px-1.5 py-0.5 rounded font-mono font-semibold tracking-wider ${
+                        incident.primarySource?.includes('CWC')
+                          ? 'bg-surface-tint/20 text-surface-tint border border-surface-tint/40'
+                          : incident.primarySource?.includes('NASA')
+                          ? 'bg-secondary-container/30 text-secondary border border-secondary-container/40'
+                          : 'bg-primary/15 text-primary border border-primary/30'
+                      }`}>
+                        {incident.primarySource?.includes('CWC')
+                          ? 'CWC TELEMETRY'
+                          : incident.primarySource?.includes('NASA')
+                          ? 'NASA LIVE'
+                          : 'USGS LIVE'}
                       </span>
                     )}
                   </div>

@@ -154,7 +154,11 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
                 <span className="font-headline-md text-lg font-bold text-secondary font-mono">
                   {incident.metrics.acresBurned.toLocaleString()} ac
                 </span>
-                <span className="text-[10px] text-on-surface-variant">Contained: {incident.metrics.containmentPercent}%</span>
+                <span className="text-[10px] text-on-surface-variant font-medium">
+                  {incident.metrics.containmentPercent !== undefined
+                    ? `Contained: ${incident.metrics.containmentPercent}%`
+                    : 'Ongoing Monitoring'}
+                </span>
               </div>
             )}
 

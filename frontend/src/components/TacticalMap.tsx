@@ -32,8 +32,13 @@ export const TacticalMap: React.FC<TacticalMapProps> = ({
     const map = L.map(mapContainerRef.current, {
       center: [20, 10],
       zoom: 2.2,
-      minZoom: 1.8,
+      minZoom: 2.0,
       maxZoom: 14,
+      maxBounds: [
+        [-85, -360],
+        [85, 360],
+      ],
+      maxBoundsViscosity: 1.0,
       zoomControl: false,
       attributionControl: true,
       worldCopyJump: true,
